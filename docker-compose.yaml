@@ -20,7 +20,7 @@ services:
     networks:
       - springboot-network
 
-  recipeApp:
+  recipe-app:
     build: .
     container_name: recipe-app
     environment:
